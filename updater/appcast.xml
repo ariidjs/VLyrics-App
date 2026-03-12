@@ -1,0 +1,14 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <!-- <title>VLyrics</title>
+        <item>
+            <title>1.1</title>
+            <pubDate>Wed, 04 Feb 2026 17:35:16 +0700</pubDate>
+            <sparkle:version>2</sparkle:version>
+            <sparkle:shortVersionString>1.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://ariidjs.github.io/VLyrics-App/VLyrics.zip" length="7351149" type="application/octet-stream" sparkle:edSignature="n7D3UN7tSgIKwCgSJBAk67J2jtdYRFDZ9ul8wXT52GfnMQyM/Xtj9G3SJ7DCEYekNorszCj8+dFZSVXPHjA5Ag=="/>
+        </item> -->
+    </channel>
+</rss>
