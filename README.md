@@ -12,7 +12,7 @@
 
 <br>
 
-**[Website](vlyrics.ariidjsdev.site)** • **[Download Latest Release](#-installation)** • **[Report a Bug](../../issues)**
+**[Website](https://vlyrics.ariidjsdev.site)** • **[Download Latest Release](#-installation)** • **[Report a Bug](../../issues)**
 
 <br>
 
