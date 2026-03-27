@@ -5,7 +5,7 @@
 # VLyrics
 **Escape the Player. Read between the lines.**
 
-[![macOS Supported](https://img.shields.io/badge/macOS-12.0%2B-000000?style=for-the-badge&logo=apple&logoColor=white)](#)
+[![macOS Supported](https://img.shields.io/badge/macOS-26.0%2B-000000?style=for-the-badge&logo=apple&logoColor=white)](#)
 [![Built with Swift](https://img.shields.io/badge/Swift-5.0%2B-FA7343?style=for-the-badge&logo=swift&logoColor=white)](#)
 [![100% Free](https://img.shields.io/badge/Price-Free-27c93f?style=for-the-badge)](#)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](#)
@@ -71,3 +71,24 @@ VLyrics taps directly into macOS's native media controllers. If your Mac knows w
 1. Download the latest [Here](https://github.com/ariidjs/VLyrics-App/releases/latest/download/VLyrics.dmg).
 2. Open the file and drag **VLyrics** into your `Applications` folder.
 3. Launch the app and grant the necessary macOS permissions (Accessibility/Media).
+
+#### If the app not showed up, go to System Settings
+
+1. Try to open the app — you'll see a security warning.
+2. Click **OK** to dismiss it.
+3. Open **System Settings** > **Privacy & Security**.
+4. Scroll to the bottom and click **Open Anyway** next to the Boring Notch warning.
+5. Confirm if prompted.
+
+#### If the above solution doesn't work too try this (Recommended)
+- Make sure you already move the VLyrics inside the Applications folder.
+- Open Terminal
+- Paste this command : 
+```bash
+xattr -dr com.apple.quarantine /Applications/VLyrics.app
+```
+- Then try open the app.
+---
+## Inspired by
+- [LyricsX](https://github.com/ddddxxx/LyricsX)
+=> since this project doesn't not have development recently, i try to make this project.
