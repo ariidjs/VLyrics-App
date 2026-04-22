@@ -149,16 +149,17 @@
             -webkit-backdrop-filter: blur(30px);
             border: 1px solid rgba(255, 255, 255, 0.15);
             border-radius: 30px;
-            height: 60px;
+            min-height: 60px;
             display: flex;
             align-items: center;
-            padding: 0 20px;
+            flex-wrap: wrap;
+            padding: 10px 20px;
             gap: 12px;
             z-index: 999;
             box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8), 0 0 0 1px rgba(255, 255, 255, 0.05) inset;
             transition: all 0.4s cubic-bezier(0.2, 0.8, 0.2, 1);
             width: auto;
-            max-width: 90vw;
+            max-width: 94vw;
             /* Prevents overflow on mobile */
             justify-content: center;
         }
@@ -187,6 +188,8 @@
             overflow: hidden;
             display: flex;
             align-items: center;
+            min-width: 0;
+            flex: 1 1 auto;
         }
 
         .notch-text {
@@ -194,6 +197,34 @@
             font-weight: 500;
             color: var(--text);
             white-space: nowrap;
+        }
+
+        .header-actions {
+            display: flex;
+            align-items: center;
+            gap: 0.6rem;
+            flex-shrink: 0;
+        }
+
+        .header-btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            padding: 0.55rem 1rem;
+            border-radius: 999px;
+            border: 1px solid rgba(255, 255, 255, 0.15);
+            background: rgba(255, 255, 255, 0.08);
+            color: var(--text);
+            text-decoration: none;
+            font-size: 0.95rem;
+            font-weight: 600;
+            white-space: nowrap;
+            transition: transform 0.2s ease, background 0.2s ease;
+        }
+
+        .header-btn:hover {
+            transform: scale(1.04);
+            background: rgba(255, 255, 255, 0.14);
         }
 
         .typing-cursor {
@@ -278,6 +309,53 @@
             transform: scale(1.05);
         }
 
+
+        .troubleshooting-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 1rem;
+            margin-top: 2rem;
+            text-align: left;
+        }
+
+        .trouble-card {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid var(--border);
+            border-radius: 20px;
+            padding: 1.25rem;
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+        }
+
+        .trouble-card h3 {
+            font-size: 1.05rem;
+            margin-bottom: 0.75rem;
+            color: var(--text);
+        }
+
+        .trouble-card p {
+            font-size: 1rem;
+            line-height: 1.6;
+            margin: 0;
+            max-width: none;
+        }
+
+        .trouble-card ol {
+            margin: 0;
+            padding-left: 1.2rem;
+            color: var(--muted);
+        }
+
+        .trouble-card li {
+            font-size: 1rem;
+            line-height: 1.7;
+            margin-bottom: 0.65rem;
+        }
+
+        .trouble-card li:last-child {
+            margin-bottom: 0;
+        }
+
         /* =========================================
            MOBILE RESPONSIVENESS (Media Queries)
            ========================================= */
@@ -308,9 +386,10 @@
             }
 
             .vlyrics-notch {
-                height: 50px;
-                padding: 0 15px;
+                min-height: 50px;
+                padding: 10px 15px;
                 top: 15px;
+                gap: 10px;
             }
 
             .notch-text {
@@ -318,10 +397,21 @@
                 /* Slightly smaller font for mobile screens */
             }
 
+            .header-actions {
+                width: 100%;
+                justify-content: center;
+            }
+
+            .header-btn {
+                font-size: 0.85rem;
+                padding: 0.45rem 0.85rem;
+            }
+
             /* Modify section padding to avoid overlapping the notch on small screens */
             .section {
-                padding-top: 6rem;
+                padding-top: 7rem;
             }
+
         }
     </style>
 </head>
@@ -334,6 +424,11 @@
         <div class="notch-art"></div>
         <div class="notch-text-container">
             <span class="notch-text" id="dynamic-lyric"></span><span class="typing-cursor"></span>
+        </div>
+        <div class="header-actions">
+            <a href="#how-to-use" class="header-btn">How to Use</a>
+            <a href="https://github.com/ariidjs/VLyrics-App" class="header-btn" target="_blank"
+                rel="noopener noreferrer">GitHub</a>
         </div>
     </div>
 
@@ -350,6 +445,14 @@
                 <div class="player-line"></div>
                 <div class="player-line short"></div>
             </div>
+        </div>
+    </section>
+
+    <section class="section" id="how-to-use" data-lyric="🛠️ Set it up in seconds.">
+        <div class="content-box">
+            <h1>How to use VLyrics.</h1>
+            <p>Download the app, launch it while your music is playing, then keep the floating lyrics bar above your
+                workflow while you code, design, or browse.</p>
         </div>
     </section>
 
@@ -377,6 +480,46 @@
             <br>
             <a href="https://github.com/ariidjs/VLyrics-App/releases/latest/download/VLyrics.dmg" class="btn">Download
                 for macOS</a>
+        </div>
+    </section>
+
+    <section class="section" id="troubleshooting" data-lyric="🧩 Fix common issues fast.">
+        <div class="content-box">
+            <h1>Troubleshooting.</h1>
+            <p>If VLyrics is not behaving the way you expect, try these quick fixes before reinstalling or giving up.
+            </p>
+            <div class="troubleshooting-grid">
+                <div class="trouble-card">
+                    <h3>Lyrics are not showing</h3>
+                    <p>Make sure your music is already playing, then give VLyrics a moment to detect the current track.
+                        Reopening the app can also refresh detection.</p>
+                </div>
+                <div class="trouble-card">
+                    <h3>Wrong song or stale lyrics</h3>
+                    <p>Pause and resume playback, or skip to the next track and back again. This usually forces a clean
+                        refresh of the current song data.</p>
+                </div>
+                <div class="trouble-card">
+                    <h3>Floating bar is missing</h3>
+                    <p>Check whether the app opened behind another window or on a different desktop space. Reopen
+                        VLyrics and bring it to the front.</p>
+                </div>
+                <div class="trouble-card">
+                    <h3>App feels stuck</h3>
+                    <p>Quit VLyrics completely and launch it again. If the issue continues, download the latest build
+                        from GitHub to make sure you are on the newest version.</p>
+                </div>
+                <div class="trouble-card">
+                    <h3>App cannot be opened</h3>
+                    <ol>
+                        <li>Try to open the app — you'll see a security warning.</li>
+                        <li>Click OK to dismiss it.</li>
+                        <li>Open System Settings &gt; Privacy &amp; Security.</li>
+                        <li>Scroll to the bottom and click Open Anyway next to the VLyrics warning.</li>
+                        <li>Confirm if prompted.</li>
+                    </ol>
+                </div>
+            </div>
         </div>
     </section>
 

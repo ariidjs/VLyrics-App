@@ -77,7 +77,7 @@ VLyrics taps directly into macOS's native media controllers. If your Mac knows w
 1. Try to open the app — you'll see a security warning.
 2. Click **OK** to dismiss it.
 3. Open **System Settings** > **Privacy & Security**.
-4. Scroll to the bottom and click **Open Anyway** next to the Boring Notch warning.
+4. Scroll to the bottom and click **Open Anyway** next to the VLyrics warning.
 5. Confirm if prompted.
 
 #### If the above solution doesn't work too try this (Recommended)
