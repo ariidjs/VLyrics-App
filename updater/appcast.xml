@@ -9,6 +9,11 @@
             <sparkle:shortVersionString>1.2</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <enclosure url="https://ariidjs.github.io/VLyrics-App/updater/VLyrics.zip" length="4443430" type="application/octet-stream" sparkle:edSignature="3FzHN4mmV9FoN2mMlYJFn9TAZLpZReesvNt1Wl9rfJ5Rfs3tErJVgt247q0BJaOT0p9yC7IogVz0kOQ2CpeLAw=="/>
+            <description><![CDATA[<h2>🚀 v1.2.0 — VLyrics 🐇🪽</h2>
+<h3> Fixes: </h3>
+<ul>
+    <li><strong>Fixed island cannot run idle function when entered to full screen></li>
+</ul>]]></description>
         </item>
     </channel>
 </rss>
