@@ -4,11 +4,18 @@
         <title>VLyrics</title>
         <item>
             <title>1.2</title>
-            <pubDate>Mon, 27 Apr 2026 10:06:01 +0700</pubDate>
+            <pubDate>Mon, 27 Apr 2026 11:09:07 +0700</pubDate>
             <sparkle:version>3</sparkle:version>
             <sparkle:shortVersionString>1.2</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://ariidjs.github.io/VLyrics-App/updater/VLyrics.zip" length="4443434" type="application/octet-stream" sparkle:edSignature="MCWKME+Aa4xp0+i6+qCBcOHtMqsAyvd3rR8RDcYC2jFwovuAklm0hzuRt/XOWAdyeAdWLtNvocXlpsRvej7DCA=="/>
+            <description><![CDATA[<h2>🚀 v1.2.0 — VLyrics 🐇🪽</h2>
+            <h3> VLyrics Changelog : </h3>
+            <ul>
+            <li><strong>Fixed island cannot run idle function when entered to full screen></li>
+            <li><strong>Bug fixed & Performance improvements></li>
+            </ul>]]>
+            </description>
+            <enclosure url="https://ariidjs.github.io/VLyrics-App/artifacts/VLyrics.zip" length="4444109" type="application/octet-stream" sparkle:edSignature="Fc/XjyyKBaAxInj5ltH2gUqhvYgxuh2/C4N+G1Hu+QDKjWt56erwivWGp5oQtDERSth+zle91cE1Z+UNci7ABA=="/>
         </item>
     </channel>
 </rss>
