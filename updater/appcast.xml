@@ -17,5 +17,25 @@
             </description>
             <enclosure url="https://ariidjs.github.io/VLyrics-App/artifacts/VLyrics.zip" length="4444109" type="application/octet-stream" sparkle:edSignature="Fc/XjyyKBaAxInj5ltH2gUqhvYgxuh2/C4N+G1Hu+QDKjWt56erwivWGp5oQtDERSth+zle91cE1Z+UNci7ABA=="/>
         </item>
+        <item>
+            <title>1.3</title>
+            <pubDate>Fri, 22 May 2026 10:19:09 +0700</pubDate>
+            <sparkle:version>4</sparkle:version>
+            <sparkle:shortVersionString>1.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>🚀 v1.3.0 — VLyrics 🐇🪽</h2>
+            <h3> VLyrics Changelog : </h3>
+            <ul>
+            <li><strong>Fixed the island confict with the real notch macs👌</li>
+            <li><strong>Revamped the player controls on expanded island✨</li>
+            <li><strong>Added shuffle and repeat mode button☺️</li>
+            <li><strong>Improved player connectivity for better performance🚀</li>
+            <li><strong>Added slider for seeking the song on expanded view👀</li>
+            <li><strong>Now the window mode is on development, so not shown on menu😎</li>
+            <li><strong>Bug fixed & Performance improvements🚀</li>
+            </ul>]]>
+            </description>
+            <enclosure url="https://ariidjs.github.io/VLyrics-App/artifacts/VLyrics.zip" length="4551557" type="application/octet-stream" sparkle:edSignature="vo+HqliAxFE57zFbZ1qZFlM/oTcYzn5jlHOVsglUQdNS2nNMtJSH1p2WnOtkRESYxrESh8vbXwFTG4H9/FdDBg=="/>
+        </item>
     </channel>
 </rss>
