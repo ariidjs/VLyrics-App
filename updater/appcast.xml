@@ -50,7 +50,7 @@
             <li><strong>Added refresh the normal resolution if the app is killed.(only for M1 and later macs)👌</li>
             </ul>]]>
             </description>
-            <enclosure url="https://ariidjs.github.io/VLyrics-App/updater/VLyrics.zip" length="4550391" type="application/octet-stream" sparkle:edSignature="Aa6e+0X/oRwPra2OoG4Z/Fk4fxaqLR1Qy4MXvBeUhAxpGU+PRrcj/7wSB74LNA2QFq6fMgx3ngGYGnaDU0RhAw=="/>
+            <enclosure url="https://ariidjs.github.io/VLyrics-App/artifacts/VLyrics.zip" length="4550391" type="application/octet-stream" sparkle:edSignature="Aa6e+0X/oRwPra2OoG4Z/Fk4fxaqLR1Qy4MXvBeUhAxpGU+PRrcj/7wSB74LNA2QFq6fMgx3ngGYGnaDU0RhAw=="/>
         </item>
     </channel>
 </rss>
