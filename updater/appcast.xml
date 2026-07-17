@@ -52,5 +52,25 @@
             </description>
             <enclosure url="https://ariidjs.github.io/VLyrics-App/artifacts/VLyrics.zip" length="4550391" type="application/octet-stream" sparkle:edSignature="Aa6e+0X/oRwPra2OoG4Z/Fk4fxaqLR1Qy4MXvBeUhAxpGU+PRrcj/7wSB74LNA2QFq6fMgx3ngGYGnaDU0RhAw=="/>
         </item>
+        <item>
+            <title>1.4.0</title>
+            <pubDate>Fri, 17 Jul 2026 15:40:29 +0700</pubDate>
+            <sparkle:version>6</sparkle:version>
+            <sparkle:shortVersionString>1.4.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>v1.4.0 — VLyrics 🚀👻</h2>
+            <h3> VLyrics Changelog : </h3>
+            <ul>
+            <li><strong>Revamped Window Mode — a resizable, dedicated lyrics window with state driven persistence (size/position/screen), always on top pinning, and native fullscreen support.🔥</li>
+            <li><strong>Added Scrollable fullscreen lyric view with autofollow of the current line on the window mode.🔥</li>
+            <li><strong>Redesigned the Settings window to a native macOS System Settings look.🔥</li>
+            <li><strong>Optimized AppleScript compilation and added performance counters plus polling concurrency control primitives.✨</li>
+            <li><strong>Lyrics candidate selection now filters and ranks by fuzzy score instead of exact title/artist equality, so valid lyrics are no longer dropped when a track's multi artist credit differs between players.</li>
+            <li><strong>Added persistence of user lyric selections and a Clear Storage action for the on device lyrics cache.</li>
+            <li><strong>Consistent lyrics across players — the same song now resolves the same lyrics whether it's playing in Apple Music, Spotify, or Now Playing, even when players report the artist differently.</li>
+            </ul>]]>
+            </description>
+            <enclosure url="https://ariidjs.github.io/VLyrics-App/artifacts/VLyrics.zip" length="4734707" type="application/octet-stream" sparkle:edSignature="QmkpZfRKts+hHhu7hyuz42Qy2j2VEaMsBcAJ0BHF+5a0f3PVv3PGIinwXrECeHf7apoNQsaCNS4R1KHF0MZhCQ=="/>
+        </item>
     </channel>
 </rss>
